@@ -25,11 +25,13 @@ namespace WindowsFormsApp1
         */
         private void ButtonClick(object sender, KeyEventArgs e)
         {
-            i++;
-            if (i%10==0)
-            {
-                MessageBox.Show("그만눌러");
-            }
+            
+        }
+
+        private void ButtonClick2(object sender, EventArgs e)
+        {
+            label1.Text = textBox1.Text;
+            textBox1.Text = "";
         }
     }
 }
